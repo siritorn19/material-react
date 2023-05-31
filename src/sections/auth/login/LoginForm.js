@@ -45,9 +45,9 @@ export default function LoginForm() {
         </Link> */}
       </Stack>
 
-      <LoadingButton fullWidth size="large" type="submit" variant="contained" onClick={handleClick}>
+      <LoadingButton fullWidth size="large" type="submit" variant="contained" color='success' onClick={handleClick}>
         Login
-      </LoadingButton>
+      </LoadingButton> 
     </>
   );
 }
